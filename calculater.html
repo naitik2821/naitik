@@ -1,0 +1,73 @@
+<html>
+
+<body style="background-color: rgb(46, 236, 8);">
+ <h1 style="font-size:50px;text-align:center">calculator</h1>
+
+</body>
+
+<input id="1234">+</input><input id="1235">=<p id="p53"></p>
+<button onclick="fun()">add</button>
+<script>
+function fun() {
+    var a=document.getElementById("1234").value;
+    var b=document.getElementById("1235").value;
+    var c=parseInt(a)+parseInt(b)
+
+document.getElementById("p53").innerHTML=c;
+
+}
+</script><br><br>
+<input id="1236">-</input><input id="1237">=<p id="p54"></p>
+<button onclick="dog()">sub</button>
+<script>
+function dog() {
+    var d=document.getElementById("1236").value;
+    var e=document.getElementById("1237").value;
+    var f=parseInt(d)-parseInt(e)
+
+document.getElementById("p54").innerHTML=f;
+
+}
+</script><br><br>
+<input id="1238">*</input><input id="1239">=<p id="p55"></p>
+<button onclick="cat()">multiply</button>
+<script>
+function cat() {
+    var g=document.getElementById("1238").value;
+    var h=document.getElementById("1239").value;
+    var i=parseInt(g)*parseInt(h)
+
+document.getElementById("p55").innerHTML=i;
+
+}
+
+
+</script><br><br>
+<input id="1231">/</input><input id="1232">=<p id="p56"></p>
+<button onclick="lion()">div</button>
+<script>
+function lion() {
+    var j=document.getElementById("1231").value;
+    var k=document.getElementById("1232").value;
+    var l=parseInt(j)/parseInt(k)
+
+document.getElementById("p56").innerHTML=l;
+
+}
+
+</script><br><br>
+<input id="1230">%</input><input id="1212">=<p id="p57"></p>
+<button onclick="monkey()">per</button>
+<script>
+function monkey() {
+    var o=document.getElementById("1230").value;
+    var p=document.getElementById("1212").value;
+    var v=(parseInt(o)/100)*(parseInt(p))
+document.getElementById("p57").innerHTML                                                                                                                                    =v;
+
+}
+</script>
+
+
+
+</html>
